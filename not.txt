@@ -1,0 +1,19 @@
+Non-BAU Contributions:
+
+	1.	JPMorgan Chase Global Hackathon
+During the JPMorgan Chase Global Hackathon, I worked on solving a common problem faced by many projects—handling support emails efficiently by leveraging historical data and modern AI models.
+Problem Statement:
+Support teams often receive repetitive queries that have been resolved previously. However, the process of identifying and responding to these emails manually can be time-consuming and error-prone. There’s a need for an automated solution that taps into past knowledge to handle such support requests.
+Solution Approach:
+	•	Data Storage in RAG (Retrieval Augmented Generation):
+We collected all historical support emails and their resolutions, along with KT (Knowledge Transfer) session data, and stored this information in a RAG (Retrieval Augmented Generation) system.
+	•	Utilizing Large Language Models (LLMs):
+A new support email is passed to an LLM, which references the RAG system to automatically retrieve past solutions.
+	•	If the LLM finds a resolution that matches directly (e.g., where the solution involves just sharing knowledge), it sends an automated reply to the user.
+	•	For more complex issues requiring further work, the system escalates the email to the development team based on past resolutions.
+	•	Outcome:
+This solution streamlines support responses, allowing for quick resolution of repetitive issues while freeing up the support team to focus on complex queries. The bot system built around the RAG and LLM models also assists new users in understanding the project through past KT sessions, making onboarding smoother.
+	2.	JPMorgan Chase Good Works Program
+I also participated in the JPMorgan Chase Good Works program, where I volunteered in a government school. As part of the initiative, I contributed by painting classrooms, helping to create a better learning environment for the students. This experience was a great opportunity to give back to the community and support local education.
+
+Let me know if you’d like to add or modify anything!
